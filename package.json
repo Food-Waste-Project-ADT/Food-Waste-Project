@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build --no-lint",
-    "start": "next start",
+    "build": "bunx next build --no-lint",
+    "start": "bunx next start",
     "lint": "biome check --apply .",
     "format": "biome format --write ."
   },
